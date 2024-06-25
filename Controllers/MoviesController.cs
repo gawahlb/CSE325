@@ -27,11 +27,16 @@ namespace MvcMovie.Controllers
             {
                 return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
             }
-
-            // Use LINQ to get list of genres.
+            //
+            //    // Use LINQ to get list of genres.
             IQueryable<string> genreQuery = from m in _context.Movie
                                             orderby m.Genre
                                             select m.Genre;
+
+            //IQueryable<System.DateTime> yearQuery = from m in _context.Movie
+            //                                        orderby m.ReleaseDate
+            //                                        select m.ReleaseDate;
+
             var movies = from m in _context.Movie
                          select m;
 
@@ -52,6 +57,14 @@ namespace MvcMovie.Controllers
             };
 
             return View(movieGenreVM);
+
+            //var movieYearVM = new MovieGenreViewModel
+            //{
+            //    ReleaseDates = new SelectList(await yearQuery.Distinct().ToListAsync()),
+            //    Movies = await movies.ToListAsync()
+            //};
+
+            //return View(movieYearVM);
         }
 
         // GET: Movies/Details/5
@@ -183,22 +196,5 @@ namespace MvcMovie.Controllers
             return _context.Movie.Any(e => e.Id == id);
         }
 
-        public async Task<IActionResult> Index(string searchString)
-        {
-            if (_context.Movie == null)
-            {
-                return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
-            }
-
-            var movies = from m in _context.Movie
-                         select m;
-
-            if (!String.IsNullOrEmpty(searchString))
-            {
-                movies = movies.Where(s => s.Title!.Contains(searchString));
-            }
-
-            return View(await movies.ToListAsync());
-        }
     }
 }
