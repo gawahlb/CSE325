@@ -30,7 +30,7 @@ public static class SeedData
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters ",
+                    Title = "Ghostbusters",
                     ReleaseDate = DateTime.Parse("1984-3-13"),
                     Genre = "Comedy",
                     Rating = "R",
@@ -42,7 +42,7 @@ public static class SeedData
                     ReleaseDate = DateTime.Parse("1986-2-23"),
                     Genre = "Comedy",
                     Rating = "R",
-                    Price = 9.99M
+                    Price = 8.99M
                 },
                 new Movie
                 {
@@ -50,8 +50,33 @@ public static class SeedData
                     ReleaseDate = DateTime.Parse("1959-4-15"),
                     Genre = "Western",
                     Rating = "R",
-                    Price = 3.99M
+                    Price = 8.99M
+                },
+                new Movie
+                {
+                    Title = "UP",
+                    ReleaseDate = DateTime.Parse("2009-1-15"),
+                    Genre = "Animated",
+                    Rating = "PG",
+                    Price = 9.99M
+                },
+                new Movie
+                {
+                    Title = "Tommy Boy",
+                    ReleaseDate = DateTime.Parse("1995-1-15"),
+                    Genre = "Comedy",
+                    Rating = "PG-13",
+                    Price = 8.99M
+                },
+                new Movie
+                {
+                    Title = "The Emperor's New Groove",
+                    ReleaseDate = DateTime.Parse("2000-1-15"),
+                    Genre = "Animated",
+                    Rating = "PG",
+                    Price = 8.99M
                 }
+
             );
             context.SaveChanges();
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Week2\\MvcMovie\\MvcMovie.csproj": {}
+    "c:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Week2\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Week2\\MvcMovie\\MvcMovie.csproj": {
+    "c:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Week2\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Week2\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "c:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Week2\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Week2\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "c:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Week2\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\gawah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Week2\\MvcMovie\\obj\\",
+        "outputPath": "c:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Week2\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gawah\\AppData\\Roaming\\NuGet\\NuGet.Config"

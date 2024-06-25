@@ -275,3 +275,4 @@ C:\Users\gawah\Desktop\School\Spring 2024\cse325\Week2\MvcMovie\bin\Debug\net8.0
 C:\Users\gawah\Desktop\School\Spring 2024\cse325\Week2\MvcMovie\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\gawah\Desktop\School\Spring 2024\cse325\Week2\MvcMovie\obj\Debug\net8.0\MvcMovie.csproj.AssemblyReference.cache
 C:\Users\gawah\Desktop\School\Spring 2024\cse325\Week2\MvcMovie\obj\Debug\net8.0\MvcMovie.csproj.Up2Date
+c:\Users\gawah\Desktop\School\Spring 2024\cse325\Week2\MvcMovie\obj\Debug\net8.0\MvcMovie.sourcelink.json
